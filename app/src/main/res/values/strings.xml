@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">NoteApp_Fire</string>
+    <string name="app_name">NotesApp</string>
+    <string name="notes_app">Notes App</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="log_in">Log in</string>
+    <string name="or">or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="name">name</string>
 </resources>
