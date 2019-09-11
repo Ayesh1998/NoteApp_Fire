@@ -8,4 +8,6 @@
     <string name="sign_up">Sign Up</string>
     <string name="confirm_password">confirm password</string>
     <string name="name">name</string>
+    <string name="enter_description_here">Enter description here .....</string>
+    <string name="enter_note_title">Enter note title</string>
 </resources>

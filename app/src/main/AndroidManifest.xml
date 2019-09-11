@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddNote"></activity>
+        <activity android:name=".NotesListHome"></activity>
+        <activity android:name=".AddNote" />
         <activity android:name=".signUp" />
         <activity android:name=".MainActivity">
             <intent-filter>

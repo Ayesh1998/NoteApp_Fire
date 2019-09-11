@@ -71,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
                         pr.setVisibility(View.GONE);
                         if(task.isSuccessful()){
                             Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                            Intent intents = new Intent(MainActivity.this, com.ayeshlaka.noteAppfire.NotesListHome.class);
+                            startActivity(intents);
                         }else{
                             Toast.makeText(MainActivity.this, task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }

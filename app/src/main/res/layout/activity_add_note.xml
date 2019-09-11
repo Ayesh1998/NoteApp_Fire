@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context=".AddNote">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--        <view-->
+<!--            android:id="@+id/viewss"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:background="@color/black"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:layout_height="1dp" ></view>-->
+
+        <EditText
+            android:id="@+id/etNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/enter_note_title"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etNoteContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/enter_description_here"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btCreateNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Create Note"
+            android:textColor="@color/black"
+            android:background="@drawable/buttons" />
+    </LinearLayout>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
